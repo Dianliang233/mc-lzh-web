@@ -17,5 +17,5 @@ python:
   install:
    #- requirements: docs/requirements.txt
     - method: pip
-    extra_requirements:
-           - mkdocs-material
+  extra_requirements:
+    - mkdocs-material
