@@ -1,7 +1,7 @@
+site_name: 'Minecraft 文言文資源包'
 theme:
   name: 'material'
   language: 'zh'
-
 repo_name: 'dianliang233/minecraft-lzh'
 repo_url: 'https://github.com/dianliang233/minecraft-lzh'
 extra:
