@@ -1,15 +1,70 @@
+# Project information
 site_name: 'Minecraft 文言文資源包'
-site_dir: '/'
-docs_dir: '/docs'
+site_description: '為 Minecraft 添加「文言文」語言。'
+site_author: 'Minecraft 文言文資源包貢獻者'
+site_url: 'https://doc.mc-lzh.org'
+
+# Repository
+repo_name: 'dianliang233/minecraft-lzh'
+repo_url: 'https://github.com/dianliang233/minecraft-lzh'
+
+# Copyright
+copyright: '版權所有 &copy; 2020 Minecraft 文言文資源包貢獻者<br>若無聲明，本站內容使用 GPLv3 協議授權。'
+
+# Configuration
 theme:
   name: 'material'
   language: 'zh'
-repo_name: 'dianliang233/minecraft-lzh'
-repo_url: 'https://github.com/dianliang233/minecraft-lzh'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Customization
 extra:
   social:
     - type: 'github'
-      link: 'https://github.com/dianliang233/minecraft-lzh'
+      link: 'https://github.com/squidfunk'
+
+# Google Analytics
 google_analytics:
   - 'UA-162014786-1'
   - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  # pymdown start
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized
+      type: timeago
+  
